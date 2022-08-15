@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="NumberTheory\gcd.cpp">
+      <Filter>NumberTheory</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="NumberTheory\inv.cpp">
+      <Filter>NumberTheory</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberTheory\fastpow.cpp">
+      <Filter>NumberTheory</Filter>
+    </ClCompile>
+    <ClCompile Include="Signal\transform.cpp">
+      <Filter>Signal</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="NumberTheory">
+      <UniqueIdentifier>{7e396899-acd2-4fe3-8fbc-c50d7d7ef66f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Signal">
+      <UniqueIdentifier>{b6670038-3b12-47ca-938c-0378a4eb6aaa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NumberTheory\NumberTheory.h">
+      <Filter>NumberTheory</Filter>
+    </ClInclude>
+    <ClInclude Include="Signal\Signal.h">
+      <Filter>Signal</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
